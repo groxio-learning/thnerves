@@ -19,7 +19,7 @@ defmodule Blinker.LED do
     GPIO.write(led, 0)
     led
   end
-  
+
   def message(message) do
     # Warning: IO.puts in hardware can be unpredictable
     IO.puts(message)
