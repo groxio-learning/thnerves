@@ -3,9 +3,9 @@ import Config
 # Use shoehorn to start the main application. See the shoehorn
 # docs for separating out critical OTP applications such as those
 # involved with firmware updates.
-config :clock, 
-  adapter: Clock.Adapter.Target, 
-  timezone: "US/Eastern", 
+config :clock,
+  adapter: Clock.Adapter.Target,
+  timezone: "US/Eastern",
   spi: "spidev0.0"
 
 config :shoehorn,
